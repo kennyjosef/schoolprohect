@@ -1,0 +1,44 @@
+
+h1{
+    color: white;
+    background-color: goldenrod;
+    text-align: center;
+    height: 50px;
+    font-family: sans-serif;
+    margin: auto;
+    padding-top: 20px;
+}
+
+img{
+    border-radius: 100%;
+width: 410px;
+height: 410px;
+padding-top: 20px;
+margin-left: 500px;
+}
+marquee{
+    color: red;
+    font-size: xx-large;
+}
+/* header{
+    border: 1px solid red;
+} */
+header{
+    background-color: goldenrod;
+    font-size: xx-large;
+    color: white;
+    height: 50px;
+    margin-bottom: 30px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    padding-top: 10px;
+    cursor: pointer;
+}
