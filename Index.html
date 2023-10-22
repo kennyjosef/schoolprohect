@@ -3,31 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/IMG-20230914-WA0004.jpg" type="image/x-icon">
-
-    <title>My Profile</title>
+    <link rel="shortcut icon" href="./images/travel.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Travel</title>
 </head>
 <body>
     <header>
-        <ul>
-            <a href="#">
-                <li>Home</li>
-            </a>
-            <a href="./About.html">
-                <li>About</li>
-            </a>
-            <a href="./Contact.html">
-                <li>Contact</li>
-            </a>
+        <div>
+            <h4>
+                <span class="blue">J</span>
+                <span class="orange">A</span>
+                <span class="yellow">P</span>
+                <span class="green">A</span>
+            </h4>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="./book.html" class="nav-link">Book Flight</a>
+            </li>
+            <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+            </li>
         </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
-    <h1>Autobiography of  Bishop Oluwakorede</h1>
-    <h1>WHAT YOU NEVER KNEW ABOUT ME</h1>
-    <marquee behavior="" direction="left"> download more movies at fimyzilla.com</marquee>
-    <div class="container">
-        <img src="./images/1afaded4-28a8-482d-958f-f650e28c821e.jpg"  alt="pic">
+    <div id="particles-js">
+        <section>
+        <div class="sectionOne">
+            <h1>Our <span class="blue">J</span>
+            <span class="orange">A</span>
+            <span class="yellow">P</span>
+            <span class="green">A</span> deals wear <br> a crown</h1>
+            <div class="moderate">
+                <p>Travel with <em>Easy</em> With us <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam mollitia illo temporibus maiores ab. Beatae voluptatum labore maxime recusandae esse eaque, cum assumenda, deserunt et commodi nulla accusamus voluptas expedita atque itaque quia, ullam perferendis ab! Similique earum accusantium dicta eius odio odit consequatur id, delectus, sit iusto hic doloribus.</p>
+                <a href="./book.html">
+                    <button class="btn">Book a flight</button>
+                </a>
+            </div>
+        </div>
+        <div class="sectionTwo">
+            <img src="./images/travel.png" alt="">
+        </div>
+    </section>
     </div>
-    <script src="./js.js"></script>
+    <div class="control">
+        <h3>How It Works</h3>
+    </div>
+    <footer>
+        <div class="foot">
+            <div>
+                <h4>Join our mail</h4>
+                <p>Be the first to know about the <br> newest news</p>
+                <form action="">
+                    <input  class="email" type="text" id="email" placeholder="Input Email" required/>
+                    <input class="submit" type="submit" value="→"></input>
+                    <p>Emails subject to <span>privacy policy</span></p>
+                </form>
+            </div>
+            <div>
+                <h4>Follow us on Social Media</h4>
+            </div>
+            <div>
+                <h4>Japa with us</h4>
+                <button class="enroll" >Book a Flight</button>
+                <button class="enroll" >Join the Queue</button>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

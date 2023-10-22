@@ -6,4 +6,7 @@ let c = a + b
 console.log(c)
 let d = c * 0
 console.log(d)
+let
+var
+const
 
